@@ -1,9 +1,9 @@
 
 //selfwork-funzioni 4
 
-function controlstring(stringa) {
+function controlString(stringa) {
     
-    stringa = stringa.replace(/\w/g, '')
+    stringa = stringa.replace(/\W/g, "")
 
     let reversed = stringa.split('').reverse().join('');
     
@@ -17,5 +17,5 @@ function controlstring(stringa) {
     }
 }
 
-console.log(controlstring('i topi non avevano nipoti') );
+console.log(controlString('i topi non avevano nipoti') );
  
